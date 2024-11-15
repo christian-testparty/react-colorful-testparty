@@ -1,5 +1,5 @@
 {
-  "name": "react-colorful-testparty",
+  "name": "@test-party/react-colorful-testparty",
   "version": "0.0.1",
   "description": "A fork of react-colorful to test the release process",
   "source": "src/index.ts",
@@ -27,7 +27,7 @@
     "prepublishOnly": "npm run build",
     "check-release": "npm publish --dry-run",
     "release": "npm publish"
-    },
+  },
   "size-limit": [
     {
       "path": "dist/index.module.js",
